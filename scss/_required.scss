@@ -1,0 +1,9 @@
+img {
+    // Responsive IMGs
+    max-width: 100%;
+    width: auto\9; /*iefix*/
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}

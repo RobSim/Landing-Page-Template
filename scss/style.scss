@@ -1,0 +1,28 @@
+@import "variables";
+@import "required";
+@import "font";
+
+body {
+	background: $bg-color;
+}
+header {
+	.profile {
+		height: $profile-size;
+		width: $profile-size;
+		border-radius: $profile-size/2;
+		margin: 0 auto;
+		display: block;
+		margin-top: 10%;
+		background: url("/images/profile.png") no-repeat; //Replace with your profile image!
+		background-size: $profile-size $profile-size;
+	}
+}
+section#icons {
+	margin-top: 2rem;
+	font-size: 3.5rem;
+	text-align: center;
+	color: $icon-color;
+	& a {
+		color: $icon-color;
+	}
+}
